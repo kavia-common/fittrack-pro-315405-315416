@@ -30,6 +30,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # Networking
+  http: ^1.2.2
+
+  # Local persistence / utilities already present in template
   sqflite: ^2.3.2
   path: ^1.9.0
   flutter_dotenv: ^5.1.0
